@@ -10,8 +10,9 @@ async function getData() {
   document.getElementById('para').innerHTML = `${result.setup}- ${result.punchline}`;
   return result;
 }
-btnid.addEventListener('click', getData)
+
 
 (async () => {
   const result = await getData();
 })();
+btnid.addEventListener('click', getData)
