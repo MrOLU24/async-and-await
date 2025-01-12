@@ -11,7 +11,7 @@ async function getData() {
   return result;
 }
 btnid.addEventListener('click', getData)
-getData()
-// (async () => {
-//   const result = await getData();
-// })();
+
+(async () => {
+  const result = await getData();
+})();
